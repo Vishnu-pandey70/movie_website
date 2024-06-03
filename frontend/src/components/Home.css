@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.navbar{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* .card{
+    transition: all 1s ease-in .2s;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 20px black;
+    transition: all;
+} */
+
+/* Home.css */
+.navbar-nav {
+    flex-direction: row;
+  }
+  
+  .navbar-collapse {
+    justify-content: space-between;
+  }
+  
+  .input-group {
+    width: 100%;
+  }
+  
+  @media (max-width: 992px) {
+    .navbar-collapse {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .input-group {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+  
